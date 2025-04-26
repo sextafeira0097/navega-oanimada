@@ -1,0 +1,45 @@
+.navegacao-paginas {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: center; /* Centraliza a navegação */
+    border: 1px solid #d1b0ff; /* Borda roxa clara */
+    border-radius: 5px;
+    background-color: #f0e6ff; /* Fundo roxo bem claro */
+  }
+  
+  .navegacao-paginas li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #6a0dad; /* Roxo médio para o texto */
+  }
+  
+  .navegacao-paginas li:first-child a {
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .navegacao-paginas li:last-child a {
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .navegacao-paginas li a:hover {
+    background-color: #e0b0ff; /* Roxo claro no hover */
+    color: #4a0080; /* Roxo mais escuro no hover */
+  }
+  
+  .navegacao-paginas li.atual a {
+    background-color: #a020f0; /* Roxo vibrante para a página atual */
+    color: white;
+  }
+  
+  .navegacao-paginas li.anterior a,
+  .navegacao-paginas li.proximo a {
+    font-weight: bold; /* Destaca os botões de anterior/próximo */
+  }
+  
+  .navegacao-paginas li.anterior a:hover,
+  .navegacao-paginas li.proximo a:hover {
+    background-color: #c77dff; /* Tom de roxo diferente no hover do anterior/próximo */
+  }
